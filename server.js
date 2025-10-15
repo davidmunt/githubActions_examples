@@ -6,8 +6,4 @@ app.get("/", (req, res) => {
   res.send("Hola GitHub Actions!");
 });
 
-console.log("Deberia fallar aqui");
-
-app.listen(PORT, () => {
-  console.log(`Servidor en ejecución en http://localhost:${PORT}`);
-});
+app.listen(PORT, () => {});
