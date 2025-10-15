@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "eslint-config-standard": "^17.1.0",
     "express": "^5.1.0"
   },
   "name": "1-github-actions.-workflow-inicial",
