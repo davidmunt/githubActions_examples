@@ -23,7 +23,7 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v5
-      - name: Install Jest
-        uses: npm install jest --legacy-peer-deps
-      - name: Run Jest Test
-        uses: npm run test
+      - name: Install dependencies
+        run: npm install --legacy-peer-deps
+      - name: Run Jest tests
+        run: npm test
